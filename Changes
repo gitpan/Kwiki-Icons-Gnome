@@ -1,4 +1,10 @@
 ---
+version: 0.14
+date:    Tue Jul 20 00:07:18 EDT 2004
+changes:
+- Updated to work with Kwiki-0.32
+
+---
 version: 0.13
 date:    Thu Jun 24 08:44:50 EDT 2004
 changes:
