@@ -2,7 +2,7 @@ package Kwiki::Icons::Gnome;
 use strict;
 use warnings;
 use Kwiki::Icons '-Base';
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 const class_title => 'Gnome Icons';
 const icons_path => 'icons/gnome/template';
@@ -11,27 +11,75 @@ __DATA__
 
 =head1 NAME 
 
-Kwiki::Icons::Gnome - Kwiki Gnome Icons Plugin
+Kwiki::Icons::Gnome - Kwiki Gnome Icons plugin
 
 =head1 SYNOPSIS
 
+ $ cpan Kwiki::Icons::Gnome
+ $ cd /path/to/kwiki
+ $ vim plugins
+ $ kwiki -update
+
 =head1 DESCRIPTION
+
+This is a Kwiki icons package that includes icons from Gnome. Specifically, they were copied from the F<gnome-icon-theme> Debian package.
+
+=head2 Icons
+
+The following icons are provided:
+
+=over 4
+
+=item * edit
+
+=item * favorites
+
+=item * guest_book
+
+=item * home
+
+=item * new_page
+
+=item * plugin_index
+
+=item * recent_changes (now the same as revisions_previous)
+
+=item * revisions
+
+=item * revisions_current
+
+=item * revisions_next
+
+=item * revisions_previous
+
+=item * user_preferences
+
+=item * weather
+
+=back
 
 =head1 AUTHOR
 
-Ian Langworth <langworth.com>
+The icons have been packaged by Ian Langworth <langworth.com>. 
 
-=head1 COPYRIGHT
+Credits to Brian Ingerson and Jooon for further tweaks.
+
+=head1 SEE ALSO
+
+L<Kwiki>, L<Kwiki::Icon>, L<http://tigert.gimp.org/>
+
+=head1 COPYRIGHT AND LICENSE
 
 Copyright (c) 2004. Ian Langworth. All rights reserved.
 
-Since the Gnome(tm) icons are distributed under the terms of the GNU
-Public Licence (GPL), this module is also distributed under the terms
-of the GPL.
+Since the Gnome(tm) icons are distributed under the terms of the Gnu General
+Public License (GPL), this module is also distributed under the terms of the
+GPL.
 
 See http://www.gnu.org/copyleft/gpl.html
 
 =cut
+
 __icons/gnome/template/recent_changes_button_icon.html__
 <!-- BEGIN recent_changes_button_icon.html -->
 <img src="icons/gnome/image/recent_changes.png" alt="Changes" />
@@ -142,14 +190,15 @@ vUbgOA7D4XCRylYCx3G44fXw8tsJ3fM/9Ho9vF4vkiRtfIlz1Dww918BKKEgbpeLs06bbrdDz/7N
 yfcWDx4n6Pf72Gc2079TlJsKR4fHkhvgwNz/8ub12+fW18a7vfDuvdH5CBcufNdk/Ds7fPrw+dnt
 O7ceAvhkH/J1maPDY+lSvu8/X6G319F7MTYAAAAASUVORK5CYII=
 __icons/gnome/image/new_page.png__
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABY0lE
-QVR42o2Tv2rCUBSHP0uXoCAdpEgpDUWii5M4iK/QzScotFP3DqWDU1+iL+BDOBjFQYpT0GQpBESE
-0kUkSgm5p4NEEpOgBw4X7vmd3/3uP9hHB5Az8oGMEKVUagZBIK7rimmaoUkn02C9XqfmaDQS3/el
-1+slSHIRAzabDdPplN1uh6ZpFAoFqtUq/X6fyWTCarVisVgwGAwOvZfHKI1GI44mQrPZxHEcZjOL
-+XweqycIhsMhpVIJz/PYbrfU63WKxSIiAoBt27Tb7XQCpVSiIaQI69H5mIGIICJYloWu67iui6Zp
-AOTzeQAqlUq2QWjSarUAKJfLB3F0VEplGyilsG0bAMMw6H58xsTdt+fTBLVaLSa6u73H+1P8/riH
-bUbjIo3AcRyCIABAv85xc6VOH2JIYBhGTGR+fe9rSCpBwiAqeH99PP8Qx+Mxvu8n7v54xeVyCTA7
-fsEvZ37nMJ/Cxn8z6ivCxvLisAAAAABJRU5ErkJggg==
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsSAAALEgHS3X78AAAAB3RJTUUH1AYXFxMRFcO6igAAAX5JREFUeNqNk01L40AYx3/JWogi
+tK6tOUnwJHi2sFBWbx6kNz+GNz/IHjx789LvYJGksYfoaT2010KRgNiSUg2VyWT2sCTkregDD8zb
+7z//mWcG/scFoL6RXdaEiuO4MqWUajKZKMdxEpGLtQKLxaIyXddVQgjV6/VKTrSMAMvlstJev9/H
+8zx832c6nWLbdsrqfBFKKdrtNvV6nfn8jdFolJsvOYjjeK0QwHg8ptPppOxGdlEWToDifHFczwLZ
+LMZd/5Zms4nvv1QfQUpJEAQ5OGmHYYhlWczDE35uDXKsXrQYRRFRFBGGH9zbN7RaLSzL4nXxG13X
+ePz7K9U/7+5e5hzMZrPczqZpEqxOKy/1cxVjNtxqB1JKpJR43pCG4ZTgj3eJ2XCp1TRDL5ZK07S0
+v79/AMBqlS/twA4AEEJ9lgSSUiVtAMPQiYSiYTgoBYdHWymTvoPhcIgQovIdPAxCumdPXF//YWfz
+iqfn49KxLtd94e3tH5Xje2btDOAflQIoZ0JA0GgAAAAASUVORK5CYII=
 __icons/gnome/image/plugin_index.png__
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
 WXMAAAsSAAALEgHS3X78AAAAB3RJTUUH0wkJDi4DsPacRgAAAB10RVh0Q29tbWVudABDcmVhdGVk
