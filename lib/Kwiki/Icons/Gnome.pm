@@ -2,10 +2,12 @@ package Kwiki::Icons::Gnome;
 use strict;
 use warnings;
 use Kwiki::Icons '-Base';
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 const class_title => 'Gnome Icons';
 const icons_path => 'icons/gnome/template';
+
+1;
 
 __DATA__
 
