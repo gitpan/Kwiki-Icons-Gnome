@@ -1,4 +1,10 @@
 ---
+version: 0.13
+date:    Thu Jun 24 08:44:50 EDT 2004
+changes:
+- Just kidding about recent changes, I was confused. The *Revisions* button is now the same as the Previous Revision icon.
+
+---
 version: 0.12
 date:    Wed Jun 23 20:48:49 EDT 2004
 changes:

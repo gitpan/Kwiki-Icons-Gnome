@@ -2,7 +2,7 @@ package Kwiki::Icons::Gnome;
 use strict;
 use warnings;
 use Kwiki::Icons '-Base';
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 const class_title => 'Gnome Icons';
 const icons_path => 'icons/gnome/template';
@@ -44,9 +44,9 @@ The following icons are provided:
 
 =item * plugin_index
 
-=item * recent_changes (now the same as revisions_previous)
+=item * recent_changes
 
-=item * revisions
+=item * revisions (now the same as revisions_previous)
 
 =item * revisions_current
 
@@ -108,7 +108,7 @@ __icons/gnome/template/new_page_button_icon.html__
 <!-- END new_page_button_icon.html -->
 __icons/gnome/template/revisions_button_icon.html__
 <!-- BEGIN revisions_button_icon.html -->
-<img src="icons/gnome/image/revisions.png" alt="[% hub.pages.current.revision_number %]&nbsp;Revisions" />
+<img src="icons/gnome/image/revisions_previous.png" alt="[% hub.pages.current.revision_number %]&nbsp;Revisions" />
 <!-- END revisions_button_icon.html -->
 __icons/gnome/template/revisions_controls_current_icon.html__
 <!-- BEGIN revisions_controls_current_icon.html -->
