@@ -1,7 +1,7 @@
 use inc::Module::Install;
 
 name('Kwiki-Icons-Gnome');
-author('Ian Langworth <langworth.com>');
+author('Ian Langworth <ian@cpan.org>');
 abstract('Kwiki Gnome Icons Plugin');
 license('gpl');
 version_from('lib/Kwiki/Icons/Gnome.pm');

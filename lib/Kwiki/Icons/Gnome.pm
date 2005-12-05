@@ -1,13 +1,12 @@
 package Kwiki::Icons::Gnome;
 use strict;
 use warnings;
-use Kwiki::Icons '-Base';
-our $VERSION = '0.14';
+
+use Kwiki::Icons -Base;
+our $VERSION = '0.15';
 
 const class_title => 'Gnome Icons';
-const icons_path => 'icons/gnome/template';
-
-1;
+const icons_path  => 'icons/gnome/template';
 
 __DATA__
 
@@ -62,7 +61,7 @@ The following icons are provided:
 
 =head1 AUTHOR
 
-The icons have been packaged by Ian Langworth <langworth.com>. 
+The icons have been packaged by Ian Langworth <ian@cpan.org>.
 
 Credits to Brian Ingerson and Jooon for further tweaks.
 
@@ -83,53 +82,29 @@ See http://www.gnu.org/copyleft/gpl.html
 =cut
 
 __icons/gnome/template/recent_changes_button_icon.html__
-<!-- BEGIN recent_changes_button_icon.html -->
 <img src="icons/gnome/image/recent_changes.png" alt="Changes" />
-<!-- END recent_changes_button_icon.html -->
 __icons/gnome/template/edit_button_icon.html__
-<!-- BEGIN edit_button_icon.html -->
 <img src="icons/gnome/image/edit.png" alt="Edit" />
-<!-- END edit_button_icon.html -->
 __icons/gnome/template/favorites_button_icon.html__
-<!-- BEGIN favorites_button_icon.html -->
 <img src="icons/gnome/image/favorites.png" alt="Favorites" />
-<!-- END favorites_button_icon.html -->
 __icons/gnome/template/guest_book_button_icon.html__
-<!-- BEGIN guest_book_button_icon.html -->
 <img src="icons/gnome/image/guest_book.png" alt="Guests" />
-<!-- END guest_book_button_icon.html -->
 __icons/gnome/template/home_button_icon.html__
-<!-- BEGIN home_button_icon.html -->
 <img src="icons/gnome/image/home.png" alt="Home" />
-<!-- END home_button_icon.html -->
 __icons/gnome/template/new_page_button_icon.html__
-<!-- BEGIN new_page_button_icon.html -->
 <img src="icons/gnome/image/new_page.png" alt="New" />
-<!-- END new_page_button_icon.html -->
 __icons/gnome/template/revisions_button_icon.html__
-<!-- BEGIN revisions_button_icon.html -->
 <img src="icons/gnome/image/revisions_previous.png" alt="[% hub.pages.current.revision_number %]&nbsp;Revisions" />
-<!-- END revisions_button_icon.html -->
 __icons/gnome/template/revisions_controls_current_icon.html__
-<!-- BEGIN revisions_controls_current_icon.html -->
 <img src="icons/gnome/image/revisions_current.png" alt="Current" />
-<!-- END revisions_controls_current_icon.html -->
 __icons/gnome/template/revisions_controls_next_icon.html__
-<!-- BEGIN revisions_controls_next_icon.html -->
 <img src="icons/gnome/image/revisions_next.png" alt="Next" />
-<!-- END revisions_controls_next_icon.html -->
 __icons/gnome/template/revisions_controls_previous_icon.html__
-<!-- BEGIN revisions_controls_previous_icon.html -->
 <img src="icons/gnome/image/revisions_previous.png" alt="Previous" />
-<!-- END revisions_controls_previous_icon.html -->
 __icons/gnome/template/user_preferences_button_icon.html__
-<!-- BEGIN user_preferences_button_icon.html -->
 <img src="icons/gnome/image/user_preferences.png" alt="Preferences" />
-<!-- END user_preferences_button_icon.html -->
 __icons/gnome/template/weather_button_icon.html__
-<!-- BEGIN weather_button_icon.html -->
 <img src="icons/gnome/image/weather.png" alt="Weather" />
-<!-- END weather_button_icon.html -->
 __icons/gnome/image/.htaccess__
 Allow from all
 __icons/gnome/image/recent_changes.png__

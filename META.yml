@@ -1,7 +1,7 @@
 name: Kwiki-Icons-Gnome
-version: 0.14
+version: 0.15
 abstract: Kwiki Gnome Icons Plugin
-author: Ian Langworth <langworth.com>
+author: Ian Langworth <ian@cpan.org>
 license: gpl
 distribution_type: module
 requires:
@@ -11,4 +11,4 @@ requires:
 no_index:
   directory:
     - inc
-generated_by: Module::Install version 0.35
+generated_by: Module::Install version 0.39
